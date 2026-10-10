@@ -17,3 +17,17 @@
    用户原有的文件、资料、会话数据一律不动。删除前确认路径，避免误删。
 5. **需要用户手动跑命令时，在命令里带上清理步骤**，不要只给出"生成"的那一半。
 6. **备份同样适用**：自己制造的 `.bak-*`、快照目录等，确认新文件正常后一并清掉。
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live as GitHub issues in `Xmiss9/wanwan`, driven by the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+The five canonical triage roles keep their default label strings (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`), plus the category labels `bug` / `enhancement`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+single-context — one root `GLOSSARY.md` plus `docs/adr/`, no per-package glossaries, no `GLOSSARY-MAP.md`. See `docs/agents/domain.md`.
